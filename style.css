@@ -8,6 +8,8 @@ body {
     background-color: aqua;
 }
 
+/* Navigation */
+
 nav {
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
@@ -27,7 +29,7 @@ nav li {
 
 nav a {
     height: 100%;
-    padding: 0 30px;
+    padding: 0 19px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -77,6 +79,11 @@ nav li:first-child {
 .menu-button {
     display: none;
 }
+
+/* Hero Section */
+
+
+
 
 @media (max-width: 800px) {
     .hideOnMbile {
