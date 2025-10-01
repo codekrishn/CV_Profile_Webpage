@@ -101,10 +101,21 @@ nav li:first-child {
 
 .hero h3 {
     background-color: blue;
-    margin-right: 470px;
+    color: #fff;
+    margin-right: 590px;
     border-radius: 10px;
     font-size: 18px;
     text-align: center;
+}
+
+.hero h1{
+    font-size: 37px;
+    padding: 19px 19px 0 19px;
+}
+
+.hero h2{
+    font-size: 37px;
+    padding: 0px 19px 19px 19px;
 }
 
 .hero p {
