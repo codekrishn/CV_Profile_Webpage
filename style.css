@@ -5,7 +5,7 @@
 
 body {
     min-height: 100vh;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Navigation */
@@ -92,7 +92,7 @@ nav li:first-child {
 
 .hero-to-img {
     display: flex;
-    padding: 50px 50px 0 50px;
+    padding: 62px 50px 0 50px;
 }
 
 .hero {
@@ -177,7 +177,7 @@ nav li:first-child {
 }
 
 .about-image{
-    margin: 50px 0 0 100px;
+    margin: 62px 0 0 100px;
 }
 
 .about-image img{
@@ -220,9 +220,82 @@ nav li:first-child {
     border-radius: 14px;
 }
 
+/* Skills */
+/* body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #8b6868;
+      color: #fff;
+    } */
+
+    .skills-section {
+      max-width: 800px;
+      margin: 550px auto;
+      text-align: center;
+    }
+
+    .skills-section h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .skills-section p {
+      color: #888888;
+      font-size: 21px;
+      text-align: start;
+      margin-bottom: 50px;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px 50px;
+    }
+
+    .skill {
+      text-align: left;
+    }
+
+    .skill-title {
+      display: flex;
+      justify-content: space-between;
+      font-size: 19px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .progress-bar {
+      background: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 14px;
+    }
+
+    .progress {
+      height: 100%;
+      background: #0066ff; /* orange-yellow */
+      border-radius: 10px;
+      width: 0; /* start at 0 */
+      animation: fillBar 2s forwards;
+    }
+
+    /* Different delays so they animate one after another */
+    .p80 { animation-delay: 0.5s; }
+    .p85 { animation-delay: 1s; }
+    .p95 { animation-delay: 1.5s; }
+    .p90 { animation-delay: 2s; }
+    .p70 { animation-delay: 2.5s; }
+    .p80b { animation-delay: 3s; }
 
 
 
+
+
+@keyframes fillBar {
+      from { width: 0; }
+      to { width: var(--progress); }
+    }
 
 
 @media (max-width: 800px) {
