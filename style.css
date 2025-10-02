@@ -11,7 +11,7 @@ body {
 /* Navigation */
 
 nav {
-    background-color: white;
+    background-color: #0066ff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
 }
 
@@ -33,11 +33,20 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.our-web a{
+    color: #ffffff;
+}
+
+.our-web a:hover{
+    color: #0066ff;
+    background-color: #ffffffa6;
 }
 
 nav a:hover {
-    background-color: #f0f0f0;
+    background-color: #f0f0f056;
 }
 
 nav li:first-child {
@@ -82,7 +91,7 @@ nav li:first-child {
 
 /* Hero Section */
 .hero-all {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
 }
 
 .hero-container {
@@ -100,7 +109,7 @@ nav li:first-child {
 }
 
 .hero h3 {
-    background-color: blue;
+    background-color: #0066ff;
     color: #fff;
     margin-right: 590px;
     border-radius: 10px;
@@ -108,12 +117,12 @@ nav li:first-child {
     text-align: center;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 37px;
     padding: 19px 19px 0 19px;
 }
 
-.hero h2{
+.hero h2 {
     font-size: 37px;
     padding: 0px 19px 19px 19px;
 }
@@ -134,10 +143,17 @@ nav li:first-child {
 }
 
 .social-button {
-    background-color: blue;
-    color: white;
+    background-color: #ffffff;
+    color: #0066ff;
     padding: 9px 10px;
+    border-color: #0066ff;
     border-radius: 14px;
+}
+
+.social-button:hover {
+    background-color: #0066ff;
+    color: #fff;
+    border-color: #0066ff;
 }
 
 .hero-button a {
@@ -155,7 +171,7 @@ nav li:first-child {
 
 .blank {
     margin: -335px 0 -500px 0px;
-    background-color: black;
+    background-color: #0066ff;
     height: 50px;
     color: white;
 }
@@ -166,58 +182,66 @@ nav li:first-child {
 }
 
 /* About Me */
-.about-all{
-    background-color: chartreuse;
+.about-all {
+    background-color: rgb(255, 255, 255);
 }
 
-.about-container{
+.about-container {
     height: 132vh;
     margin: 500px 0 0 0;
     display: flex;
 }
 
-.about-image{
+.about-image {
     margin: 62px 0 0 100px;
 }
 
-.about-image img{
+.about-image img {
     height: 450px;
 }
 
-.about-about-button{
+.about-about-button {
     display: grid;
     padding: 100px;
     margin-top: -37px;
 }
 
-.about{
+.about {
     margin: 0px 0 0 0;
 }
 
-.about h1{
+.about h1 {
+    color: #0066ff;
     font-size: 50px;
 }
 
-.about p{
+.about p {
     font-size: 23px;
     color: #808080;
 }
 
-.about-details{
+.about-details {
     margin: 30px 0 0px 0;
     line-height: 32px;
     font-size: 23px;
 }
 
-.abouts-button{
+.abouts-button {
     margin: 30px 0 500px 0;
 }
 
 .about-button {
-    background-color: blue;
-    color: white;
+    background-color: #ffffff;
+    color: #0066ff;
     padding: 9px 10px;
+    border-color: #0066ff;
     border-radius: 14px;
+}
+
+.about-button:hover {
+    background-color: #0066ff;
+    color: #fff;
+    border-color: #0066ff;
 }
 
 /* Skills */
@@ -229,73 +253,98 @@ nav li:first-child {
       color: #fff;
     } */
 
-    .skills-section {
-      max-width: 800px;
-      margin: 550px auto;
-      text-align: center;
-    }
+.skills-section {
+    max-width: 800px;
+    margin: 550px auto;
+    text-align: center;
+}
 
-    .skills-section h1 {
-      font-size: 50px;
-      margin-bottom: 10px;
-    }
+.skills-section h1 {
+    color: #0066ff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
 
-    .skills-section p {
-      color: #888888;
-      font-size: 21px;
-      text-align: start;
-      margin-bottom: 50px;
-    }
+.skills-section p {
+    color: #888888;
+    font-size: 21px;
+    text-align: start;
+    margin-bottom: 50px;
+}
 
-    .skills-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 30px 50px;
-    }
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+}
 
-    .skill {
-      text-align: left;
-    }
+.skill {
+    text-align: left;
+}
 
-    .skill-title {
-      display: flex;
-      justify-content: space-between;
-      font-size: 19px;
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
 
-    .progress-bar {
-      background: #222;
-      border-radius: 10px;
-      overflow: hidden;
-      height: 14px;
-    }
+.progress-bar {
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 14px;
+}
 
-    .progress {
-      height: 100%;
-      background: #0066ff; /* orange-yellow */
-      border-radius: 10px;
-      width: 0; /* start at 0 */
-      animation: fillBar 2s forwards;
-    }
+.progress {
+    height: 100%;
+    background: #0066ff;
+    /* orange-yellow */
+    border-radius: 10px;
+    width: 0;
+    /* start at 0 */
+    animation: fillBar 2s forwards;
+}
 
-    /* Different delays so they animate one after another */
-    .p80 { animation-delay: 0.5s; }
-    .p85 { animation-delay: 1s; }
-    .p95 { animation-delay: 1.5s; }
-    .p90 { animation-delay: 2s; }
-    .p70 { animation-delay: 2.5s; }
-    .p80b { animation-delay: 3s; }
+/* Different delays so they animate one after another */
+.p80 {
+    animation-delay: 0.5s;
+}
+
+.p85 {
+    animation-delay: 1s;
+}
+
+.p95 {
+    animation-delay: 1.5s;
+}
+
+.p90 {
+    animation-delay: 2s;
+}
+
+.p70 {
+    animation-delay: 2.5s;
+}
+
+.p80b {
+    animation-delay: 3s;
+}
 
 
 
 
 
 @keyframes fillBar {
-      from { width: 0; }
-      to { width: var(--progress); }
+    from {
+        width: 0;
     }
+
+    to {
+        width: var(--progress);
+    }
+}
 
 
 @media (max-width: 800px) {
