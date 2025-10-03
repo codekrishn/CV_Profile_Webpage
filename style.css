@@ -537,7 +537,6 @@ hr {
     }
 }
 
-
 @media (max-width: 800px) {
     .hideOnMbile {
         display: none;
