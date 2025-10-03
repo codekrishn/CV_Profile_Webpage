@@ -133,7 +133,7 @@ nav li:first-child {
 }
 
 .image img {
-    height: 438px;
+    height: 430px;
 }
 
 .hero-button {
@@ -197,7 +197,7 @@ nav li:first-child {
 }
 
 .about-image img {
-    height: 450px;
+    height: 443px;
 }
 
 .about-about-button {
@@ -500,6 +500,100 @@ hr {
     font-size: 15px;
     color: #333;
 }
+
+/* Footer */
+footer {
+    background-color: rgb(0, 60, 150);
+    color: #ffffff;
+    padding: 40px 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 70px;
+    margin: -30px 0 10px 0;
+}
+
+.footer-logo .social-icons i {
+    margin: 0 5px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.check-times {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px 0;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check-item i {
+    font-size: 24px;
+}
+
+.check-item p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.check-item strong {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item i {
+    font-size: 18px;
+}
+
+.contact-item p {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin: 0px -1.5vw;
+    background-color: rgb(0, 43, 107);
+    color: #fff;
+    text-align: center;
+    padding: 23px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .check-times,
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .timeline-item {
